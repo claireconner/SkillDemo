@@ -4,8 +4,8 @@ import org.junit.*;
 
 public class SkillDemoTest {
     @Test
-    //this test doesn't work because 20 doesnt equal 4*4
+    //this test works because 20 equals 4*5
    public void multTest(){
-       assertEquals(20, SkillDemo.multiply(4,4));
+       assertEquals(20, SkillDemo.multiply(4,5));
    }
 }
